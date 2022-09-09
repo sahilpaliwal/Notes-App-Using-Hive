@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData.dark(),
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'My notes App',
       home: FutureBuilder(
         future: Hive.openBox('notes'),
         builder: ((context, snapshot) {
