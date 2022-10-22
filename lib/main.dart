@@ -1,5 +1,5 @@
 
-// ignore_for_file: unused_import
+// ignore_for_file: unused_import, unnecessary_import
 
 import 'package:flutter/material.dart';
 import 'package:sahilapp/models/note.dart';
